@@ -1,0 +1,100 @@
+@use 'common';
+
+.Header {
+
+    background: common.$bColor;
+    line-height: 8rem;
+
+    .TopBanner {
+        font-size: 1.7rem;
+        line-height: 4rem;
+        text-align: center;
+        background: common.$mColor;
+        color: common.$wColor;
+
+        span {
+            color: common.$yColor;
+        }
+
+        .nexticon {
+            font-size: 2rem;
+            vertical-align: text-top;
+        }
+
+    }
+
+    .inner {
+        font-family: 'Noto Serif KR';
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            max-width: 12rem;
+            font-size: 0;
+        }
+
+        .Gnb {
+            display: flex;
+            gap: 5rem;
+
+            li {
+                font-weight: 700;
+                font-size: 1.8rem;
+
+                a {
+                    position: relative;
+                    display: block;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        bottom: 2rem;
+                        left: 50%;
+                        width: 0%;
+                        height: 0.2rem;
+                        transform: translateX(-50%);
+                        background: common.$mColor;
+                    }
+
+                    &:hover::after {
+                        width: 100%;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+
+        .submenu {
+            display: flex;
+
+            li {
+                font-size: 1.4rem;
+
+                &:first-child {
+                    ::after {
+                        content: "";
+                        display: inline-block;
+                        margin: 0 1.5rem 0 1.5rem;
+                        width: 0.1rem;
+                        height: 1rem;
+                        background: common.$gColor;
+                    }
+                }
+            }
+        }
+
+        .subicon {
+            display: flex;
+            gap: 1rem;
+
+            li {
+                font-size: 2rem;
+
+                svg {
+                    vertical-align: middle;
+                }
+            }
+
+        }
+    }
+}
