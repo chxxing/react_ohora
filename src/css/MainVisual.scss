@@ -1,0 +1,61 @@
+.MainVisual {
+    .MainSlider {
+        position: relative;
+
+        figure {
+            height: calc(100vh - 13.1rem);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            &.itm01 {
+                background-image: url(../../public/assets/images/mainvisual01.jpg);
+            }
+
+            &.itm02 {
+                background-image: url(../../public/assets/images/mainvisual02.jpg);
+            }
+
+            &.itm03 {
+                background-image: url(../../public/assets/images/mainvisual03.jpg);
+            }
+
+            &.itm04 {
+                background-image: url(../../public/assets/images/mainvisual04.jpg);
+            }
+
+            &.itm05 {
+                background-image: url(../../public/assets/images/mainvisual05.jpg);
+            }
+        }
+
+        .slick-dots {
+            position: absolute;
+            bottom: 5rem;
+            left: 50%;
+            transform: translateX(-50%);
+
+            li {
+                display: inline-block;
+            }
+        }
+    }
+
+    .slideArrows {
+        svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 3rem;
+            cursor: pointer;
+
+            &:first-child {
+                margin: 0 0 0 -70rem;
+            }
+
+            &:last-child {
+                margin: 0 0 0 70rem;
+            }
+        }
+    }
+}

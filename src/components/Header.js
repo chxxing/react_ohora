@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlineSearch, AiOutlineShoppingCart } from "react-icons/ai";
 import TopBanner from './TopBanner';
@@ -6,8 +6,19 @@ import Nav from './Nav';
 import '../css/Header.scss';
 
 const Header = () => {
+    const [on, setOn] = useState(false);
+    useEffect(() => {
+        const scrollEvent = () => {
+            let sct = window.scrollY;
+            sct > 0 ? setOn(true) : setOn(false)
+        }
+        window.addEventListener('scroll', scrollEvent);
+        return () => {
+            window.removeEventListener('scroll', scrollEvent);
+        }
+    }, []);
     return (
-        <header className='Header'>
+        <header className={`Header ${on ? 'on' : ''}`}>
             <TopBanner />
             <div className="inner">
                 <h1>
@@ -31,4 +42,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header;

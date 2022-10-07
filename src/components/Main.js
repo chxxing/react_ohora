@@ -1,11 +1,14 @@
-import React from 'react'
+import { main_slider } from "../data/common";
+import NewCollection from "../pages/NewCollection";
+import MainVisual from "./MainVisual"
 
 const Main = () => {
     return (
-        <div>
-            Main
-        </div>
+        <main>
+            <MainVisual content={main_slider} />
+            <NewCollection />
+        </main>
     )
 }
 
-export default Main
+export default Main;

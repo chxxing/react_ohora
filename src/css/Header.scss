@@ -1,9 +1,20 @@
 @use 'common';
 
 .Header {
-
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
     background: common.$bColor;
-    line-height: 8rem;
+    border-bottom: 0.1rem solid common.$bColor;
+    line-height: 9rem;
+    transition: 0.3s;
+
+    &.on {
+        background: common.$bColor;
+        opacity: 0.9;
+    }
 
     .TopBanner {
         font-size: 1.7rem;
