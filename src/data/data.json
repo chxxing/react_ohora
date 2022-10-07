@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "name": "인센스 네일",
+        "price": "14,800",
+        "review": "21",
+        "category": "네일",
+        "tag_list": [
+            "NEW",
+            "드로잉",
+            "체크"
+        ],
+        "color": [
+            "레드버건디",
+            "화이트"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "러브사인 네일",
+        "price": "14,800",
+        "review": "18",
+        "category": "네일",
+        "tag_list": [
+            "NEW",
+            "",
+            ""
+        ],
+        "color": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 3,
+        "name": "크래프트 네일",
+        "price": "14,800",
+        "review": "19",
+        "category": "네일",
+        "tag_list": [
+            "NEW",
+            "",
+            ""
+        ],
+        "color": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 4,
+        "name": "앙상블 네일",
+        "price": "14,800",
+        "review": "14",
+        "category": "네일",
+        "tag_list": [
+            "NEW",
+            "",
+            ""
+        ],
+        "color": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 5,
+        "name": "코지 네일",
+        "price": "14,800",
+        "review": "6",
+        "category": "네일",
+        "tag_list": [
+            "NEW",
+            "",
+            ""
+        ],
+        "color": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 6,
+        "name": "위빙 네일",
+        "price": "14,800",
+        "review": "9",
+        "category": "네일",
+        "tag_list": [
+            "NEW",
+            "",
+            ""
+        ],
+        "color": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 7,
+        "name": "플랍 네일",
+        "price": "14,800",
+        "review": "10",
+        "category": "네일",
+        "tag_list": [
+            "NEW",
+            "",
+            ""
+        ],
+        "color": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 8,
+        "name": "소나타 페디",
+        "price": "14,800",
+        "review": "7",
+        "category": "페디",
+        "tag_list": [
+            "NEW",
+            "",
+            ""
+        ],
+        "color": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 9,
+        "name": "",
+        "price": "",
+        "review": "",
+        "category": "",
+        "tag_list": [
+            "",
+            "",
+            ""
+        ],
+        "color": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 2,
+        "name": "",
+        "price": "",
+        "review": "",
+        "category": "",
+        "tag_list": [
+            "",
+            "",
+            ""
+        ],
+        "color": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 2,
+        "name": "",
+        "price": "",
+        "review": "",
+        "category": "",
+        "tag_list": [
+            "",
+            "",
+            ""
+        ],
+        "color": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": 2,
+        "name": "",
+        "price": "",
+        "review": "",
+        "category": "",
+        "tag_list": [
+            "",
+            "",
+            ""
+        ],
+        "color": [
+            "",
+            ""
+        ]
+    },
+]
